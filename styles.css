@@ -720,3 +720,20 @@ li {
       width: 100%;
       }
 }
+
+/* JS styling */
+/* Chips (filter) */
+.cv-controls { display:flex; gap:.5rem; margin: 1rem 0 1.5rem; flex-wrap: wrap; }
+.chip { border:1px solid var(--line); background:#fff; padding:.35rem .7rem; border-radius:999px; cursor:pointer; }
+.chip.active { background:#111; color:#fff; border-color:#111; }
+
+/* Modal */
+.modal { position: fixed; inset: 0; display: grid; place-items: center; visibility: hidden; }
+.modal.open { visibility: visible; }
+.modal-backdrop { position: absolute; inset: 0; background: rgba(0,0,0,.45); }
+.modal-card { position: relative; z-index: 1; width: min(640px, 92vw); background: #fff; border-radius: 12px; box-shadow: 0 12px 32px rgba(0,0,0,.2); padding: 1rem 1.25rem; }
+.modal-close { position: absolute; right: .5rem; top: .5rem; border: none; background: transparent; font-size: 1.1rem; cursor: pointer; }
+
+/* Scroll-reveal */
+.reveal { opacity: 0; transform: translateY(12px); transition: .45s ease; }
+.reveal.in { opacity: 1; transform: translateY(0); }

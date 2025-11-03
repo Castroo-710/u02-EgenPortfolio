@@ -20,7 +20,7 @@
         <div class="nav-menu">
         <ul class="nav-list">
           <li><a href="index.html">Home</a></li>
-          <li><a href="aboutme.html">About</a></li>
+          <li><a href="cv.html">CV</a></li>
           <li><a href="projects.html">Projects</a></li>
           <li><a href="footer.html">Contact</a></li>
         </ul>
@@ -36,165 +36,32 @@
     </div>  
     </header>
     <main class="container">
-      <section class="about-me" aria-labelledby="about-heading">
-        <h1 id="about-heading">About Me</h1>
-        <div class="aboutme-text">
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id excepturi
-          asperiores totam accusantium ducimus, quam enim aliquam, odio harum
-          saepe atque blanditiis quasi aperiam necessitatibus qui eos nostrum
-          nemo est.
-        </p>
-        </div>
-      </section>
+  <section class="about-me" aria-labelledby="about-heading">
+    <h1 id="about-heading">CV</h1>
+    <div class="aboutme-text">
+      <!-- Fylls av JS med summary/kontakt -->
+    </div>
+  </section>
 
-      <section aria-labelledby="work-heading">
-        <h2 id="work-heading">Work Experience</h2>
-        <ul class="list">
-      <li class="item">
-        <header class="item-head">
-          <h3 class="role">SEO/SEM Specialist</h3>
-          <span class="button fulltime">Internship</span>
-          <p class="dates">
-          <time datetime="2024-06">Jun 2024</time> –
-          <time datetime="2024-08">Aug 2024</time>
-          </p>
-        </header>
-        <div class="meta-wrapper">
-          <div class="meta-grid">
-            <p class="meta-row">
-              <span class="icon" aria-hidden="true"
-                ><img src="./img/building.svg" alt="building">
-              </span>
-              <span class="company">Company Name Here</span>
-            </p>
-            <p class="meta-row">
-              <span class="icon" aria-hidden="true"
-                ><img src="./img/carbon_location.svg" alt="location">
-              </span>
-              <span class="location">Bengaluru</span>
-            </p>
-          </div>
-        </div>
-      </li>
+  <section id="cv-mount" aria-live="polite">
+    <!-- JS renderar Work/Education + filter här -->
+  </section>
+</main>
 
-         <li class="item">
-            <header class="item-head">
-              <h3 class="role">Bagare</h3>
-              <span class="button fulltime">Full Time</span>
-              <p class="dates">
-              <time datetime="2023-08">Jun 2024</time> –
-              <time datetime="2025-09">Aug 2024</time>
-              </p>
-            </header>
-            <div class="meta-wrapper">
-              <div class="meta-grid">
-              <p class="meta-row">
-                <span class="icon" aria-hidden="true"
-                  ><img src="./img/building.svg" alt="building">
-                </span>
-                <span class="company">Brödernas Family</span>
-              </p>
-              <p class="meta-row">
-                <span class="icon" aria-hidden="true"
-                  ><img src="./img/carbon_location.svg" alt="location">
-                </span>
-                <span class="location">Jakobsberg</span>
-              </p>
-              </div>
-            </div>
-          </li>
+<!-- Modal för Läs mer -->
+<div id="cv-modal" class="modal" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="modal-title">
+  <div class="modal-backdrop" data-close></div>
+  <div class="modal-card" role="document">
+    <button class="modal-close" data-close aria-label="Stäng">✕</button>
+    <h2 id="modal-title"></h2>
+    <p id="modal-body"></p>
+  </div>
+</div>
 
-          <li class="item">
-            <header class="item-head">
-              <h3 class="role">Truckförare</h3>
-              <span class="button fulltime">Full Time</span>
-              <p class="dates">
-              <time datetime="2024-06">Jun 2024</time> –
-              <time datetime="2024-08">Aug 2024</time>
-              </p>
-            </header>
-            <div class="meta-wrapper">
-              <div class="meta-grid">
-                <p class="meta-row">
-                  <span class="icon" aria-hidden="true"
-                    ><img src="./img/building.svg" alt="building">
-                  </span>
-                  <span class="company">Nortura</span>
-                </p>
-                <p class="meta-row">
-                  <span class="icon" aria-hidden="true"
-                    ><img src="./img/carbon_location.svg" alt="location">
-                  </span>
-                  <span class="location">Raufoss</span>
-                </p> 
-              </div>
-            </div>
-          </li>
-        </ul>
-      </section>
 
-      <section aria-labelledby="education-heading">
-        <h2 id="education-heading">Education</h2>
-        <ul class="list">
-          <li class="item">
-            <header class="item-head">
-              <h3 class="role">Fullstack JavaScript</h3>
-              <span class="button fulltime">Full Time</span>
-              <p class="dates">
-              <time datetime="2025-09">Sep 2025</time> –
-              <time datetime="2027-06">Jun 2027</time>
-            </p>
-            </header>
-          <div class="meta-wrapper">
-            <div class="meta-grid">
-              <p class="meta-row">
-                <span class="icon" aria-hidden="true"
-                  ><img src="./img/building.svg" alt="building">
-                </span>
-                <span class="company">Chas Academy</span>
-              </p>
-              <p class="meta-row">
-                <span class="icon" aria-hidden="true"
-                  ><img src="./img/carbon_location.svg" alt="location">
-                </span>
-                <span class="location">Stockholm</span>
-              </p> 
-            </div>
-          </div>
-          </li>
-
-          <li class="item">
-            <header class="item-head">
-              <h3 class="role">Bilmekaniker</h3>
-              <span class="button fulltime">Full Time</span>
-              <p class="dates">
-              <time datetime="2008-09">Aug 2008</time> –
-              <time datetime="2011-06">Jun 2011</time>
-            </p>
-            </header>
-          <div class="meta-wrapper">
-            <div class="meta-grid">
-              <p class="meta-row">
-                <span class="icon" aria-hidden="true"
-                  ><img src="./img/building.svg" alt="building">
-                </span>
-                <span class="company">Stockholms Praktiska</span>
-              </p>
-              <p class="meta-row">
-                <span class="icon" aria-hidden="true"
-                  ><img src="./img/carbon_location.svg" alt="location">
-                </span>
-                <span class="location">Liljeholmen</span>
-              </p>
-            </div>
-          </div>  
-          </li>
-        </ul>
-      </section>
-    </main>
     <footer>
       <p class="footer-text">Designed and Coded by Cristian C with <span class="love-caffeine text">Love & Caffeine</span></p>
     </footer>
+    <script src="./data/js/cv.js"></script>
   </body>
 </html>

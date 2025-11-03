@@ -1,0 +1,72 @@
+{
+  "name": "Cristian C",
+  "title": "Frontend student",
+  "location": "Stockholm",
+  "summary": "Nyfiken utvecklare som gillar ren CSS/JS och användbara gränssnitt.",
+  "contacts": {
+    "email": "cristian@example.com",
+    "phone": "+46 70 000 00 00",
+    "website": "https://example.dev"
+  },
+  "skills": ["HTML5","CSS3","JavaScript","Responsiv design","WCAG","Git"],
+  "experience": [
+  
+    {
+      "company": "Brödernas Family",
+      "role": "Bagare",
+      "type": "Full Time",
+      "start": "2024-06",
+      "end": "2024-08",
+      "location": "Jakobsberg",
+      "description": "Produktionsplanering, packning och kvalitetssäkring, ungsbakning och stenugnsbakning, truckörning, fryslager och konditori"
+    },
+    {
+      "company": "Nortura",
+      "role": "Truckförare",
+      "type": "Full Time",
+      "start": "2024-06",
+      "end": "2024-08",
+      "location": "Raufoss",
+      "description": "Logistikflöden och säker körning i lager."
+    },
+     {
+      "company": "Company Name Here",
+      "role": "SEO/SEM Specialist",
+      "type": "Internship",
+      "start": "2024-06",
+      "end": "2024-08",
+      "location": "Bengaluru",
+      "description": "Praktisk erfarenhet av sökordsanalys, annonser och mätning."
+    }
+  ],
+  "education": [
+    {
+      "school": "Chas Academy",
+      "program": "Fullstack JavaScript",
+      "type": "Full Time",
+      "start": "2025-09",
+      "end": "2027-06",
+      "location": "Stockholm",
+      "details": "JS/Node, webbarkitektur, samarbetsprojekt."
+    },
+    {
+      "school": "Onlinekurser",
+      "program": "Frontend-fördjupning",
+      "type": "Part Time",
+      "start": "2024",
+      "end": "pågår",
+      "location": "Remote",
+      "details": "WCAG, performance, CSS-arkitektur."
+    },
+    {
+      "school": "Stockholms Praktiska",
+      "program": "Bilmekaniker",
+      "type": "Full Time",
+      "start": "2008-08",
+      "end": "2011-06",
+      "location": "Liljeholmen",
+      "details": "Fordonsmekanik, felsökning, service."
+    }
+    
+  ]
+}
